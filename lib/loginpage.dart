@@ -29,10 +29,10 @@ class loginhome extends StatelessWidget {
       }
     }
   }
-  signOut() async {
-    await FirebaseAuth.instance.signOut();
-
-  }
+  // signOut() async {
+  //   await FirebaseAuth.instance.signOut();
+  //
+  // }
   @override
   Widget build(BuildContext context) {
     return  SafeArea(
